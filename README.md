@@ -164,13 +164,10 @@ Este projeto demonstra:
 - **Feedback Visual**: Indicadores de progresso e status
 - **Tratamento de Erros**: Fallbacks para casos de falha na API
 
-## 📄 Licença
-
-MIT License
 
 ## 👥 Desenvolvido por
 
-Equipe do Hackathon 3 IADT - FIAP Software Security
+Rodrigo Ferreira Santos - RM359127
 
 ---
 
