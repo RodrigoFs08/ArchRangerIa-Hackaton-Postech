@@ -50,7 +50,7 @@ interface Threat {
 }
 
 /**
- * Analisa um diagrama de arquitetura usando Gemini Vision
+ * Analisa um diagrama de arquitetura usando Gemini 2.5 Flash
  */
 export async function analyzeArchitectureDiagram(imageBase64: string): Promise<Component[]> {
   // Verificar se a API key está configurada
@@ -125,7 +125,7 @@ export async function analyzeArchitectureDiagram(imageBase64: string): Promise<C
 }
 
 /**
- * Gera relatório STRIDE usando Gemini Pro
+ * Gera relatório STRIDE usando Gemini 2.5 Flash
  */
 export async function generateStrideReport(components: Component[]): Promise<StrideReport> {
   try {

@@ -9,8 +9,8 @@ O ArchRanger AI é uma solução inovadora que automatiza o processo de modelage
 ## ✨ Funcionalidades
 
 - **Upload de Diagramas**: Interface drag-and-drop para upload de imagens
-- **Análise com Gemini Vision**: Identificação automática de componentes usando IA
-- **Relatório STRIDE**: Geração automática de relatórios de ameaças com Google Gemini Pro
+- **Análise com Gemini 2.5 Flash**: Identificação automática de componentes usando IA
+- **Relatório STRIDE**: Geração automática de relatórios de ameaças com Google Gemini 2.5 Flash
 - **Exportação Markdown**: Download em formato .md com formatação completa preservada
 - **Interface Intuitiva**: Fluxo guiado com indicadores de progresso
 - **Processamento Inteligente**: Conversão automática de JSON da IA para markdown formatado
@@ -76,11 +76,11 @@ O ArchRanger AI é uma solução inovadora que automatiza o processo de modelage
    - O sistema aceita formatos de imagem comuns (JPG, PNG, etc.)
 
 2. **Análise Automática**: 
-   - O Gemini Vision AI identifica automaticamente os componentes
+   - O Gemini 2.5 Flash identifica automaticamente os componentes
    - Componentes são categorizados por tipo (Web App, Database, API, etc.)
 
 3. **Geração do Relatório**: 
-   - O Gemini Pro AI gera um relatório STRIDE completo
+   - O Gemini 2.5 Flash gera um relatório STRIDE completo
    - Análise detalhada de ameaças por categoria
    - Recomendações específicas de segurança
 
@@ -131,7 +131,7 @@ Hackaton-Fiap/
 ## 🔍 Processamento de Dados
 
 ### Análise de Imagens
-- Uso do Gemini Vision para identificar componentes
+- Uso do Gemini 2.5 Flash para identificar componentes
 - Extração de JSON estruturado da resposta da IA
 - Categorização automática de tipos de componentes
 
@@ -150,7 +150,7 @@ Hackaton-Fiap/
 ## 🎥 Demonstração
 
 Este projeto demonstra:
-- Integração avançada com Google Gemini AI
+- Integração avançada com Google Gemini 2.5 Flash
 - Processamento inteligente de diagramas de arquitetura
 - Geração automática de relatórios de segurança
 - Interface moderna e responsiva
@@ -171,4 +171,4 @@ Rodrigo Ferreira Santos - RM359127
 
 ---
 
-**Nota**: Este projeto utiliza a API do Google Gemini para análise de imagens e geração de relatórios. Certifique-se de ter uma chave de API válida configurada para o funcionamento completo. 
+**Nota**: Este projeto utiliza a API do Google Gemini 2.5 Flash para análise de imagens e geração de relatórios. Certifique-se de ter uma chave de API válida configurada para o funcionamento completo. 

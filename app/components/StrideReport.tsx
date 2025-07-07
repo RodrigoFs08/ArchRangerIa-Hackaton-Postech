@@ -22,7 +22,7 @@ export default function StrideReport({
     setIsGenerating(true)
     
     try {
-      // Chamada real para Gemini Pro API
+      // Chamada real para Gemini 2.5 Flash API
       const report = await generateStrideReport(components)
       console.log('Relatório gerado:', report)
       console.log('Componentes recebidos:', components)
@@ -47,7 +47,7 @@ export default function StrideReport({
         {isGenerating ? (
           <div className="flex items-center text-purple-600">
             <Loader2 className="w-5 h-5 animate-spin mr-2" />
-            <span>Gerando relatório STRIDE com Gemini Pro AI...</span>
+            <span>Gerando relatório STRIDE com Gemini 2.5 Flash...</span>
           </div>
         ) : (
           <div className="flex items-center text-green-600">

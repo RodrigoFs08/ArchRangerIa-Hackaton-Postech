@@ -39,13 +39,15 @@
    http://localhost:3000
    ```
 
-## Obter Chave da API Gemini
+## Obter Chave da API Gemini 2.5 Flash
 
 1. Acesse [Google AI Studio](https://makersuite.google.com/app/apikey)
 2. Faça login com sua conta Google
 3. Clique em "Create API Key"
 4. Copie a chave gerada
 5. Cole no arquivo `.env.local`
+
+**Nota**: Este projeto utiliza especificamente o modelo Gemini 2.5 Flash para todas as operações (análise de imagens e geração de texto).
 
 ## Scripts Disponíveis
 

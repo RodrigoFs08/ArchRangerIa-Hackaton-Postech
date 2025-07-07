@@ -25,7 +25,7 @@ export default function ComponentAnalysis({
     setIsAnalyzing(true)
     
     try {
-      // Chamada real para Gemini Vision API
+      // Chamada real para Gemini 2.5 Flash API
       const analyzedComponents = await analyzeArchitectureDiagram(imageUrl)
       onComponentsIdentified(analyzedComponents)
     } catch (error) {
@@ -69,7 +69,7 @@ export default function ComponentAnalysis({
         {isAnalyzing ? (
           <div className="flex items-center text-blue-600">
             <Loader2 className="w-5 h-5 animate-spin mr-2" />
-            <span>Analisando diagrama com Gemini Vision AI...</span>
+                          <span>Analisando diagrama com Gemini 2.5 Flash...</span>
           </div>
         ) : (
           <div className="flex items-center text-green-600">
@@ -92,7 +92,7 @@ export default function ComponentAnalysis({
           Como funciona a análise:
         </h3>
         <ul className="text-sm text-blue-700 space-y-1">
-          <li>• O Gemini Vision AI analisa o diagrama pixel por pixel</li>
+                        <li>• O Gemini 2.5 Flash analisa o diagrama pixel por pixel</li>
           <li>• Identifica componentes como servidores, bancos de dados, APIs</li>
           <li>• Reconhece relacionamentos e fluxos de dados</li>
           <li>• Classifica cada componente por tipo e função</li>
